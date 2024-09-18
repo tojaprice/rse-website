@@ -9,7 +9,7 @@ export default function HeroUnit() {
             <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-rs-gray sm:text-6xl lg:col-span-2 xl:col-auto">
               Welcome to
               <br />
-              Company Name here
+              RS Electrical Services
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg leading-8 text-rs-gray/90">
