@@ -74,7 +74,7 @@ export default function Example() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <div>
               <p>image</p>
@@ -106,7 +106,7 @@ export default function Example() {
               />
             </PopoverButton>
 
-            <PopoverPanel
+            {/* <PopoverPanel
               transition
               className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-rs-gray shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
@@ -150,13 +150,16 @@ export default function Example() {
                   </a>
                 ))}
               </div>
-            </PopoverPanel>
+            </PopoverPanel> */}
           </Popover>
 
           <a href="#" className="text-sm font-semibold leading-6 text-white">
             Get a quote
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <a
+            href="/contact"
+            className="text-sm font-semibold leading-6 text-white"
+          >
             Contact
           </a>
         </PopoverGroup>

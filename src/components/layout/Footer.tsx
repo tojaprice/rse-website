@@ -7,7 +7,7 @@ const navigation = {
   social: [
     {
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/p/RS-Electrical-Services-100064025701247/",
       icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -20,7 +20,7 @@ const navigation = {
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/",
       icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -33,7 +33,7 @@ const navigation = {
     },
     {
       name: "YouTube",
-      href: "#",
+      href: "https://www.youtube.com/",
       icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -68,6 +68,7 @@ export default function Example() {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
               className="text-white/80 hover:text-white/100"
             >
               <span className="sr-only">{item.name}</span>
@@ -76,7 +77,14 @@ export default function Example() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-white">
-          &copy; {new Date().getFullYear()} RSE. All rights reserved.
+          &copy; {new Date().getFullYear()} RSE. Site by{" "}
+          <a
+            href="https://uk.linkedin.com/in/thomas-price-356039140"
+            target="_blank"
+          >
+            Tom Price
+          </a>
+          .
         </p>
       </div>
     </footer>

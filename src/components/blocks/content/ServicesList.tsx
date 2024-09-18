@@ -2,42 +2,42 @@ import { InboxIcon, TrashIcon, UsersIcon } from "@heroicons/react/24/outline";
 
 const services = [
   {
-    name: "Unlimited inboxes",
+    name: "Service name",
     description:
       "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
     href: "#",
     icon: InboxIcon,
   },
   {
-    name: "Manage team members",
+    name: "Service name",
     description:
       "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
     href: "#",
     icon: UsersIcon,
   },
   {
-    name: "Spam report",
+    name: "Service name",
     description:
       "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
     href: "#",
     icon: TrashIcon,
   },
   {
-    name: "Unlimited inboxes",
+    name: "Service name",
     description:
       "Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.",
     href: "#",
     icon: InboxIcon,
   },
   {
-    name: "Manage team members",
+    name: "Service name",
     description:
       "Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.",
     href: "#",
     icon: UsersIcon,
   },
   {
-    name: "Spam report",
+    name: "Service name",
     description:
       "Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.",
     href: "#",
