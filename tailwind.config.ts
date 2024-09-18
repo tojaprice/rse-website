@@ -7,7 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "rs-gray": "#616365",
+        "rs-green": "#69bd28",
+        "rs-blue": "#39b9e9",
+      },
+    },
   },
   plugins: [],
 };
