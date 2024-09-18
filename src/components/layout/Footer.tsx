@@ -1,8 +1,8 @@
 const navigation = {
   main: [
     { name: "Services", href: "#" },
-    { name: "Get a quote", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Get a quote", href: "/contact" },
+    { name: "Contact", href: "/contact" },
   ],
   social: [
     {
@@ -53,7 +53,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav
           aria-label="Footer"
-          className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="-mb-6 columns-3 sm:flex sm:justify-center sm:space-x-12 text-center"
         >
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
