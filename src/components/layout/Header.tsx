@@ -76,14 +76,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <div>
-              <p>image</p>
-            </div>
-            {/* <img
-              alt=""
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              className="h-8 w-auto"
-            /> */}
+            <img alt="" src="/assets/rse-logo.webp" className="w-52 h-auto" />
           </a>
         </div>
         <div className="flex lg:hidden">
