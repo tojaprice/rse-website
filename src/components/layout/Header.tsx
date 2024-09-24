@@ -15,6 +15,7 @@ import {
 import {
   ArrowPathIcon,
   Bars3Icon,
+  BoltIcon,
   ChartPieIcon,
   ChatBubbleLeftIcon,
   CursorArrowRaysIcon,
@@ -33,31 +34,31 @@ const products = [
     name: "EV Charger Installation",
     description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
-    icon: ChartPieIcon,
+    icon: BoltIcon,
   },
   {
-    name: "Engagement",
+    name: "Lorem Ipsum",
     description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
-    icon: CursorArrowRaysIcon,
+    icon: BoltIcon,
   },
   {
-    name: "Security",
+    name: "Lorem Ipsum",
     description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
-    icon: FingerPrintIcon,
+    icon: BoltIcon,
   },
   {
-    name: "Integrations",
+    name: "Lorem Ipsum",
     description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
-    icon: SquaresPlusIcon,
+    icon: BoltIcon,
   },
   {
-    name: "Automations",
+    name: "Lorem Ipsum",
     description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
-    icon: ArrowPathIcon,
+    icon: BoltIcon,
   },
 ];
 const callsToAction = [
