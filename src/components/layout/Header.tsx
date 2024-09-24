@@ -16,6 +16,7 @@ import {
   ArrowPathIcon,
   Bars3Icon,
   ChartPieIcon,
+  ChatBubbleLeftIcon,
   CursorArrowRaysIcon,
   FingerPrintIcon,
   SquaresPlusIcon,
@@ -29,39 +30,39 @@ import {
 
 const products = [
   {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
+    name: "EV Charger Installation",
+    description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
     icon: ChartPieIcon,
   },
   {
     name: "Engagement",
-    description: "Speak directly to your customers",
+    description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "Security",
-    description: "Your customers’ data will be safe and secure",
+    description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
     icon: FingerPrintIcon,
   },
   {
     name: "Integrations",
-    description: "Connect with third-party tools",
+    description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
     icon: SquaresPlusIcon,
   },
   {
     name: "Automations",
-    description: "Build strategic funnels that will convert",
+    description: "Lorem ipsum dolor sit amet, consect",
     href: "#",
     icon: ArrowPathIcon,
   },
 ];
 const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
+  { name: "Get quote", href: "/get-quote", icon: ChatBubbleLeftIcon },
+  { name: "Contact us", href: "/contact", icon: PhoneIcon },
 ];
 
 export default function Example() {
@@ -102,10 +103,9 @@ export default function Example() {
                 className="h-5 w-5 flex-none text-white"
               />
             </PopoverButton>
-
-            {/* <PopoverPanel
+            <PopoverPanel
               transition
-              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-rs-gray shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
               <div className="p-4">
                 {products.map((item) => (
@@ -147,7 +147,7 @@ export default function Example() {
                   </a>
                 ))}
               </div>
-            </PopoverPanel> */}
+            </PopoverPanel>
           </Popover>
 
           <a href="#" className="text-sm font-semibold leading-6 text-white">
@@ -198,7 +198,7 @@ export default function Example() {
                       className="h-5 w-5 flex-none group-data-[open]:rotate-180"
                     />
                   </DisclosureButton>
-                  {/* <DisclosurePanel className="mt-2 space-y-2">
+                  <DisclosurePanel className="mt-2 space-y-2">
                     {[...products, ...callsToAction].map((item) => (
                       <DisclosureButton
                         key={item.name}
@@ -209,7 +209,7 @@ export default function Example() {
                         {item.name}
                       </DisclosureButton>
                     ))}
-                  </DisclosurePanel> */}
+                  </DisclosurePanel>
                 </Disclosure>
                 <a
                   href="#"
