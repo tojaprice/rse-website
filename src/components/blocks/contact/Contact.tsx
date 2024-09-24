@@ -28,9 +28,12 @@ export default function Example() {
               Get in touch
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
+              Whether you need an expert solution for a complex electrical issue
+              or simply want to discuss your next project, we're here to help.
+              At RS Electrical Services, we pride ourselves on providing prompt,
+              reliable, and professional service. Reach out to us today, and
+              let's power up your home or business with the quality and care you
+              deserve.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">

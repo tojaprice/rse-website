@@ -13,10 +13,12 @@ export default function HeroUnit() {
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
               <p className="text-lg leading-8 text-rs-gray/90">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt
-                sunt. Qui irure qui lorem cupidatat commodo.
+                At RS Electrical Services, we bring years of experience and a
+                commitment to quality to every project. Whether it's a minor
+                repair or a complete electrical overhaul, our dedicated team is
+                here to deliver safe, reliable, and efficient solutions. Serving
+                homes and businesses with a focus on excellence and customer
+                satisfaction, we're your go-to choice for all electrical needs.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
