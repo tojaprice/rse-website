@@ -28,7 +28,7 @@ export default function HeroUnit() {
                   Get in touch
                 </a>
                 <a
-                  href="#"
+                  href="/services"
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
                   Our services <span aria-hidden="true">→</span>

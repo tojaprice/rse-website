@@ -26,35 +26,35 @@ const products = [
     name: "EV Charger Installation",
     description:
       "Professional installation of electric vehicle chargers, ensuring safe and efficient setup at your home or business.",
-    href: "#",
+    href: "/services/ev-charger-installation",
     icon: BoltIcon,
   },
   {
     name: "Rewiring",
     description:
       "Comprehensive electrical rewiring services to update or replace outdated systems, improving safety and performance.",
-    href: "#",
+    href: "/services/rewiring",
     icon: BoltIcon,
   },
   {
     name: "New Build Electrical",
     description:
       "Full electrical installations for new builds, tailored to meet modern requirements and safety standards.",
-    href: "#",
+    href: "/services/new-build-electrical",
     icon: BoltIcon,
   },
   {
     name: "Fault Finding",
     description:
       "Expert diagnosis and repair of electrical issues to keep your systems running smoothly and safely.",
-    href: "#",
+    href: "/services/fault-finding",
     icon: BoltIcon,
   },
   {
     name: "Electrical Testing",
     description:
       "Thorough testing of electrical systems to ensure they are operating efficiently and in compliance with safety regulations.",
-    href: "#",
+    href: "/services/electrical-testing",
     icon: BoltIcon,
   },
   {

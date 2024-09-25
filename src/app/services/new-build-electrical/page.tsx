@@ -1,6 +1,6 @@
 import UnderConstruction from "@/components/layout/UnderConstruction";
 
-export default function EVChargerInstallation() {
+export default function NewBuildElectrical() {
   return (
     <div>
       <UnderConstruction />
