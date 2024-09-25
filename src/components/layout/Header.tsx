@@ -13,6 +13,7 @@ import {
   PopoverPanel,
 } from "@headlessui/react";
 import {
+  ArrowRightStartOnRectangleIcon,
   Bars3Icon,
   BoltIcon,
   ChatBubbleLeftIcon,
@@ -102,7 +103,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-rs-gray">
+    <header className="bg-rs-gray relative">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
@@ -128,7 +129,7 @@ export default function Example() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <Popover className="relative">
+          <Popover>
             <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
               Services
               <ChevronDownIcon
@@ -138,9 +139,9 @@ export default function Example() {
             </PopoverButton>
             <PopoverPanel
               transition
-              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-2xl overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="absolute left-0 top-full z-10 mt-3 w-screen max-w-screen overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
-              <div className="p-4">
+              <div className="p-4 grid grid-cols-3">
                 {products.map((item) => (
                   <div
                     key={item.name}
@@ -149,7 +150,7 @@ export default function Example() {
                     <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <item.icon
                         aria-hidden="true"
-                        className="h-6 w-6 text-gray-600 group-hover:text-indigo-600"
+                        className="h-6 w-6 text-gray-600 group-hover:text-rs-blue"
                       />
                     </div>
                     <div className="flex-auto">
@@ -164,6 +165,26 @@ export default function Example() {
                     </div>
                   </div>
                 ))}
+                <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                  <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                    <ArrowRightStartOnRectangleIcon
+                      aria-hidden="true"
+                      className="h-6 w-6 text-gray-600 group-hover:text-rs-blue"
+                    />
+                  </div>
+                  <div className="flex-auto">
+                    <a
+                      href="/services"
+                      className="block font-semibold text-gray-900"
+                    >
+                      All services
+                      <span className="absolute inset-0" />
+                    </a>
+                    <p className="mt-1 text-gray-600">
+                      A quick overview of all the services that we offer.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                 {callsToAction.map((item) => (
@@ -183,7 +204,10 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <a
+            href="/get-quote"
+            className="text-sm font-semibold leading-6 text-white"
+          >
             Get a quote
           </a>
           <a
