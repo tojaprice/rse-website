@@ -13,84 +13,86 @@ import {
   PopoverPanel,
 } from "@headlessui/react";
 import {
-  ArrowPathIcon,
   Bars3Icon,
   BoltIcon,
-  ChartPieIcon,
   ChatBubbleLeftIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
+import { ChevronDownIcon, PhoneIcon } from "@heroicons/react/20/solid";
 
 const products = [
   {
     name: "EV Charger Installation",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Professional installation of electric vehicle chargers, ensuring safe and efficient setup at your home or business.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Rewiring",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Comprehensive electrical rewiring services to update or replace outdated systems, improving safety and performance.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "New Build Electrical",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Full electrical installations for new builds, tailored to meet modern requirements and safety standards.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Fault Finding",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Expert diagnosis and repair of electrical issues to keep your systems running smoothly and safely.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Electrical Testing",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Thorough testing of electrical systems to ensure they are operating efficiently and in compliance with safety regulations.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Certification & Reports",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Accurate certification and detailed reports for electrical inspections, ensuring compliance with all regulations.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "CCTV",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Installation of high-quality CCTV systems for enhanced security and peace of mind for your property.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Fire Alarm Installation",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Installation of reliable fire alarm systems to protect your property and meet safety requirements.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Emergency Lighting",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Installation of emergency lighting systems that ensure safe evacuation in case of power failure or emergencies.",
     href: "#",
     icon: BoltIcon,
   },
   {
     name: "Landscape Garden Lighting",
-    description: "Lorem ipsum dolor sit amet, consect",
+    description:
+      "Custom outdoor lighting solutions to enhance the beauty and safety of your garden and landscape.",
     href: "#",
     icon: BoltIcon,
   },
 ];
+
 const callsToAction = [
   { name: "Get quote", href: "/get-quote", icon: ChatBubbleLeftIcon },
   { name: "Contact us", href: "/contact", icon: PhoneIcon },
@@ -136,7 +138,7 @@ export default function Example() {
             </PopoverButton>
             <PopoverPanel
               transition
-              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-2xl overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
               <div className="p-4">
                 {products.map((item) => (
