@@ -78,12 +78,37 @@
     ]
   },
   "testimonial": {
-    "quote": "Gravida quam mi erat tortor neque molestie. Auctor aliquet at porttitor a enim nunc suscipit tincidunt nunc. Et non lorem tortor posuere. Nunc eu scelerisque interdum eget tellus non nibh scelerisque bibendum.",
-    "name": "Customer Name",
-    "company": "Company Name",
+    "quote": "Ryan hands down for all and anything electrical. Could not recommend him enough! We moved into our new apartment 6 months ago and he has been a phone call away throughout the whole process - this guy is a frigging electrical sparky wizard!",
+    "name": "Oli Ward",
+    "company": "Facebook Review",
     "image": {
       "src": "/assets/placeholder.webp",
       "alt": "placeholder"
     }
+  },
+  "faqBlock": {
+    "title": "Frequently asked questions",
+    "faqs": [
+      {
+        "question": "Are you fully qualified & insured to carry out all of the services listed?",
+        "answer": "Yes, we are fully qualified and insured to carry out all the services listed. Our electricians are certified under UK regulations, including NICEIC and Part P, ensuring that all work is carried out to the highest safety standards. Additionally, we hold full public liability insurance, providing peace of mind for all our customers."
+      },
+      {
+        "question": "What should I do if my electrical system fails outside of regular hours?",
+        "answer": "We provide 24/7 emergency electrical services. If you experience an electrical failure, especially one posing a safety risk, contact us immediately, and we will dispatch a technician as soon as possible."
+      },
+      {
+        "question": "How often should I have my electrical system inspected?",
+        "answer": "It is recommended to have your electrical system inspected every 3-5 years, or sooner if you notice any issues. Regular inspections help ensure safety and can prevent potential hazards."
+      },
+      {
+        "question": "Are you qualified to install EV chargers?",
+        "answer": "Yes, all of our electricians are fully certified to install EV charging points. We follow strict regulations to ensure that the installation is safe and compliant with industry standards."
+      },
+      {
+        "question": "Do you provide certifications after electrical testing?",
+        "answer": "Yes, after completing electrical testing, we provide full certification that confirms your electrical system meets safety standards. This is particularly useful for landlords and commercial property owners."
+      }
+    ]
   }
 }

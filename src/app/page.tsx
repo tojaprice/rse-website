@@ -13,7 +13,7 @@ export default function Home() {
       <HeroUnit {...data.hero} />
       <ServicesList {...data.services} />
       <Testimonial {...data.testimonial} />
-      <Faqs />
+      <Faqs {...data.faqBlock} />
     </div>
   );
 }
