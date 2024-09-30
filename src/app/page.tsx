@@ -3,15 +3,16 @@ import ServicesList from "@/components/blocks/content/ServicesList";
 import Testimonial from "@/components/blocks/content/Testimonial";
 import HeroUnit from "@/components/blocks/hero/HeroUnit";
 
+import data from "./page.json";
+
 export default function Home() {
+  // console.log(data);
+
   return (
     <div className="bg-white">
-      <HeroUnit />
-      <ServicesList
-        title="Our services"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-      />
-      <Testimonial />
+      <HeroUnit {...data.hero} />
+      <ServicesList {...data.services} />
+      <Testimonial {...data.testimonial} />
       <Faqs />
     </div>
   );
