@@ -1,7 +1,9 @@
+import UnderConstruction from "@/components/layout/UnderConstruction";
+
 export default function GetQuote() {
   return (
     <div>
-      <p>get quote</p>
+      <UnderConstruction />
     </div>
   );
 }

@@ -228,12 +228,6 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <p className="text-rs-gray">logo here</p>
-              {/* <img
-                alt="logo"
-                src="/assets/rse-logo.webp"
-                className="w-42 h-auto"
-              /> */}
             </a>
             <button
               type="button"

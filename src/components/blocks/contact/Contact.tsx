@@ -1,22 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 
 export default function Example() {
   return (
@@ -24,10 +6,10 @@ export default function Example() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+            <h2 className="text-3xl font-bold tracking-tight text-rs-gray">
               Get in touch
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-rs-gray/90">
               Whether you need an expert solution for a complex electrical issue
               or simply want to discuss your next project, we're here to help.
               At RS Electrical Services, we pride ourselves on providing prompt,
@@ -45,11 +27,8 @@ export default function Example() {
                   />
                 </dt>
                 <dd>
-                  <a
-                    href="tel:+1 (555) 234-5678"
-                    className="hover:text-gray-900"
-                  >
-                    +1 (555) 234-5678
+                  <a href="tel:07974579996" className="hover:text-gray-900">
+                    07974579996
                   </a>
                 </dd>
               </div>
@@ -63,10 +42,10 @@ export default function Example() {
                 </dt>
                 <dd>
                   <a
-                    href="mailto:hello@example.com"
+                    href="mailto:Ryanstonejj@gmail.com"
                     className="hover:text-gray-900"
                   >
-                    hello@example.com
+                    ryanstonejj@gmail.com
                   </a>
                 </dd>
               </div>
@@ -83,7 +62,7 @@ export default function Example() {
               <div>
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-rs-gray"
                 >
                   First name
                 </label>
@@ -100,7 +79,7 @@ export default function Example() {
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-rs-gray"
                 >
                   Last name
                 </label>
@@ -117,7 +96,7 @@ export default function Example() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-rs-gray"
                 >
                   Email
                 </label>
@@ -134,7 +113,7 @@ export default function Example() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="phone-number"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-rs-gray"
                 >
                   Phone number
                 </label>
@@ -151,7 +130,7 @@ export default function Example() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-rs-gray"
                 >
                   Message
                 </label>

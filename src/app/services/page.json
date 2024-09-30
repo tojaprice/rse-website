@@ -12,5 +12,69 @@
       "src": "/assets/placeholder.webp",
       "alt": "placeholder"
     }
+  },
+  "gridList": {
+    "list": [
+      {
+        "title": "EV Charger Installation",
+        "text": "",
+        "href": "/services/ev-charger-installation",
+        "icon": "ClockIcon"
+      },
+      {
+        "title": "Rewiring",
+        "text": "",
+        "href": "/services/rewiring",
+        "icon": "CheckBadgeIcon"
+      },
+      {
+        "title": "New Build Electrical",
+        "text": "",
+        "href": "/services/new-build-electrical",
+        "icon": "UsersIcon"
+      },
+      {
+        "title": "Fault Finding",
+        "text": "",
+        "href": "/services/fault-finding",
+        "icon": "BanknotesIcon"
+      },
+      {
+        "title": "Electrical Testing",
+        "text": "",
+        "href": "/services/electrical-testing",
+        "icon": "ReceiptRefundIcon"
+      },
+      {
+        "title": "Certification & Reports",
+        "text": "",
+        "href": "/services/certification-and-reports",
+        "icon": "AcademicCapIcon"
+      },
+      {
+        "title": "CCTV",
+        "text": "",
+        "href": "/services/cctv",
+        "icon": "AcademicCapIcon"
+      },
+      {
+        "title": "Fire Alarm Installation",
+        "text": "",
+        "href": "/services/fire-alarm-installation",
+        "icon": "AcademicCapIcon"
+      },
+      {
+        "title": "Emergency Lighting",
+        "text": "",
+        "href": "/services/emergency-lighting",
+        "icon": "AcademicCapIcon"
+      },
+      {
+        "title": "Landscape Garden Lighting",
+        "text": "",
+        "href": "/services/landscape-garden-lighting",
+        "icon": "AcademicCapIcon"
+      }
+    ]
   }
 }
