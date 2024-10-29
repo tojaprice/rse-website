@@ -108,15 +108,20 @@ export default function Example() {
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
-        <div className="flex lg:flex-1">
+        <div className="flex lg:flex-1 items-center">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
               alt="Site logo"
               src="/assets/rse-logo.webp"
-              className="w-52 h-auto"
+              className="w-52 h-auto mr-6"
             />
           </a>
+          <img
+            src="/assets/napit-logo-2017.png"
+            alt="Napit logo"
+            className="hidden md:block md:w-52 h-auto"
+          />
         </div>
         <div className="flex lg:hidden">
           <button
