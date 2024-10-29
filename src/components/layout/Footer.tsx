@@ -77,14 +77,7 @@ export default function Example() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-white">
-          &copy; {new Date().getFullYear()} RS Electrical Services. Site by{" "}
-          <a
-            href="https://uk.linkedin.com/in/thomas-price-356039140"
-            target="_blank"
-          >
-            Tom Price
-          </a>
-          .
+          &copy; {new Date().getFullYear()} RS Electrical Services.
         </p>
       </div>
     </footer>

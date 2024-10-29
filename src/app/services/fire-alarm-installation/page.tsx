@@ -6,7 +6,6 @@ export default function Page() {
   return (
     <div>
       <HeroUnit {...data.hero} />
-      <UnderConstruction />
     </div>
   );
 }

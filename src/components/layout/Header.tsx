@@ -61,35 +61,35 @@ const products = [
     name: "Certification & Reports",
     description:
       "Accurate certification and detailed reports for electrical inspections, ensuring compliance with all regulations.",
-    href: "#",
+    href: "/services/certification-and-reports",
     icon: BoltIcon,
   },
   {
     name: "CCTV",
     description:
       "Installation of high-quality CCTV systems for enhanced security and peace of mind for your property.",
-    href: "#",
+    href: "/services/cctv",
     icon: BoltIcon,
   },
   {
     name: "Fire Alarm Installation",
     description:
       "Installation of reliable fire alarm systems to protect your property and meet safety requirements.",
-    href: "#",
+    href: "/services/fire-alarm-installation",
     icon: BoltIcon,
   },
   {
     name: "Emergency Lighting",
     description:
       "Installation of emergency lighting systems that ensure safe evacuation in case of power failure or emergencies.",
-    href: "#",
+    href: "/services/emergency-lighting",
     icon: BoltIcon,
   },
   {
     name: "Landscape Garden Lighting",
     description:
       "Custom outdoor lighting solutions to enhance the beauty and safety of your garden and landscape.",
-    href: "#",
+    href: "/services/landscape-garden-lighting",
     icon: BoltIcon,
   },
 ];
